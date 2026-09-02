@@ -34,6 +34,9 @@ classifiers = [
     "Operating System :: MacOS",
     "Typing :: Typed",
 ]
+dependencies = [
+  "numpy>=1.23.5"
+]
 
 [project.optional-dependencies]
 test = [
